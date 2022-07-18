@@ -4,8 +4,8 @@ export const theme = {
     white: '#fff',
     text: '#2a2a2a',
     background: '#E7ECF2',
-    primary: '#a1d6e2', //Голубой лед
-    secondary: '#F3F6F9', //Ледник
+    primary: 'rgb(63, 81, 181)', //Голубой лед
+    secondary: 'rgb(48, 63, 159)', //Ледник
     accent: '#609',
     muted: '#f1f1f2', //Снежное облако
     border: '#E4E9F0',
