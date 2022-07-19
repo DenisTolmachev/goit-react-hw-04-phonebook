@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { Formik, ErrorMessage } from 'formik';
+import shortid from 'shortid';
 import * as yup from 'yup';
 import {
   ContactFormForm,
@@ -23,6 +24,7 @@ export const ContactForm = ({onSubmit}) => {
 
   const handleSubmit = (values, { resetForm }) => {
     const newName = {
+      id: shortid.generate(),
       name: values.name,
       number: normalizedNumber(values.number),
     };
